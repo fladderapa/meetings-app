@@ -4,7 +4,13 @@ import ReactHtmlParser from "react-html-parser";
 
 function MeetupItem({ title, schedule, address, info }) {
   return (
-    <Flex direction="column" my={10}>
+    <Flex
+      bg="rgb(35, 35, 37)"
+      padding="1rem"
+      borderRadius="8px"
+      direction="column"
+      my={5}
+    >
       <Flex align="center">
         <Image
           src="https://m.media-amazon.com/images/I/51lvl-u49NL._AC_SY355_.jpg"
@@ -25,7 +31,7 @@ function MeetupItem({ title, schedule, address, info }) {
       <Text my={3} fontSize="sm" color="gray.400">
         {info}
       </Text>
-      <Box mx="-8px">
+      <Box borderBottomRightRadius="8px" borderBottomLeftRadius="8px">
         <table>{ReactHtmlParser(schedule)}</table>
       </Box>
     </Flex>

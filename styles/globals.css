@@ -12,10 +12,10 @@ body {
 
 table {
   width: 100%;
+  border-bottom-left-radius: 8px;
 }
 
 tr th {
-  border: 1px solid #000;
   color: #cbd5e0 !important;
   font-size: 14px;
   text-align: center;
@@ -24,10 +24,9 @@ tr th {
 
 tbody tr td {
   color: #a0aec0;
-  border: 1px solid #000;
   font-size: 12px;
   text-align: center;
-  background-color: #000 !important;
+  background: rgb(35, 35, 37) !important;
 }
 
 /* closed meeting */
@@ -35,7 +34,7 @@ tbody tr td {
 .ti3 {
   color: #f56565;
   font-weight: 600;
-  background-color: black !important;
+  background: rgb(35, 35, 37) !important;
 }
 
 /* open meeting */
@@ -43,7 +42,7 @@ tbody tr td {
 .tid4 {
   color: #68d391;
   font-weight: 600;
-  background-color: black !important;
+  background: rgb(35, 35, 37) !important;
 }
 
 /* young people */
@@ -51,7 +50,7 @@ tbody tr td {
 .tid5 {
   color: #f6ad55;
   font-weight: 600;
-  background-color: black !important;
+  background: rgb(35, 35, 37) !important;
 }
 
 /* women-meeting */
@@ -59,7 +58,7 @@ tbody tr td {
 .tid6 {
   color: #f687b3;
   font-weight: 600;
-  background-color: black !important;
+  background: rgb(35, 35, 37) !important;
 }
 
 /* men-meeting */
@@ -67,7 +66,7 @@ tbody tr td {
 .tid7 {
   color: #63b3ed;
   font-weight: 600;
-  background-color: black !important;
+  background: rgb(35, 35, 37) !important;
 }
 
 h1,

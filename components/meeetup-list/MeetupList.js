@@ -3,9 +3,10 @@ import { Box } from "@chakra-ui/react";
 
 function MeetupList({ meetings }) {
   return (
-    <Box px={4} pt="120px">
+    <Box px={2} pt="120px">
       {meetings.map((meeting) => (
         <MeetupItem
+          key={meeting.title + meeting.address}
           title={meeting.title}
           address={meeting.address}
           info={meeting.info}
